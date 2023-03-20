@@ -1,0 +1,365 @@
+body {
+    font-family: "Be Vietnam";
+    font-size: 16px;
+    background-position: 120% -10%;
+    background-image: url("../imagenes/bg-tablet-pattern.svg");
+    background-repeat: no-repeat;
+    background-size: 900px;
+    margin: 0px;
+}
+
+:root {
+    --color-primario: rgb(242, 95, 58);
+    --primario-2: rgb(35, 44, 81);
+}
+
+header {
+    max-width: 1024px;
+    margin: 0px auto;
+}
+
+.superior {
+    display: flex;
+    padding: 60px;
+    align-items: center;
+}
+
+.logo {
+    justify-content: flex-start;
+    height: 23.74px;
+    width: 120.34px;
+    margin-left: 0px;
+    gap: 50px;
+}
+
+.caja-1024 {
+    width: 1024px;
+    margin: 0px auto;
+}
+
+.superior ul {
+    list-style-type: none;
+    display: flex;
+    color: var(--primario-2);
+    align-items: center;
+    color: var(--primario-2);
+    gap: 19px;
+    padding-left: 120px;
+    padding-right: 150px;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+
+.listaPrincipal {
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+}
+
+.btnInicio {
+    justify-content: flex-end;
+    background-color: var(--color-primario);
+    border-radius: 50px;
+    color: white;
+    padding: 12.5px 30.5px;
+    top: 12.5px;
+    left: 30.5px;
+    border: none;
+    border-right: 0px;
+}
+
+.botonSuperior {
+    width: 73px;
+    height: 19px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.1806px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+}
+
+.btnUltimo {
+    color: var(--color-primario);
+    border-radius: 50px;
+    background-color: white;
+    padding: 12.5px 30.5px;
+    border: none;
+    justify-content: flex-end;
+}
+
+.caja1Principal {
+    display: flex;
+    align-items: flex-start;
+    padding: 60px;
+}
+.principal {
+    max-width: 1024px;
+    margin: 0px auto;
+}
+
+.caja3 {
+    display: flex;
+    padding: 60px;
+    align-items: flex-start;
+    max-width: 1024px;
+    margin: 0px auto;
+}
+
+.caja3Hijo3 div {
+    background-color: var(--color-primario);
+    border-radius: 50px;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    margin-bottom: 95px;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 15px;
+    display: inline;
+}
+
+dd {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 180px;
+    color: rgb(143, 148, 167);
+}
+
+.caja4 {
+    text-align: center;
+    margin-bottom: 120px;
+
+}
+
+.caja5 {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.caja5 div img {
+    margin-top: -70px;
+}
+.caja5 div{
+    color: rgb(143, 148, 167);
+    background-color: rgb(249, 249, 249);
+    margin-right: 20px;
+}
+.caja6 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.caja7 {
+    display: flex;
+   justify-content: space-around;
+    align-items: center;
+    background-color: var(--color-primario);
+    color: white;
+    height: 150px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+
+footer{
+    background-color: rgb(29, 30, 37);
+    color: white;
+}
+.caja8 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 250px;
+    padding-right: 00px;
+}
+.caja8Hijo1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+}
+.caja8Hijo1 img{
+    padding: 5px;
+}
+.caja8Hijo2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.caja8Hijo2 ul {
+    list-style-type: none;
+    margin: 0px 20px;
+}
+.caja8Hijo2 ul li {
+    margin: 12px;
+}
+
+
+.caja8Hijo4{
+    margin-top: 20px;
+    padding-right: 150px;
+}
+
+#update{
+    border-radius: 50px;
+    padding: 10px 25px;
+}
+#btnGo {
+    background-color: var(--color-primario);
+    border-radius: 50px;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+}
+.caja8 p{
+    font-size: 10px;
+  text-align: end;
+  margin-top: 20px;
+}
+.superiorMobile{
+    display: none;
+}
+
+
+@media screen and (max-width: 992px) {
+    
+    header {
+        max-width: 100%;
+        margin: 0px auto;
+    }
+    
+    .superiorMobile{
+        display: block;
+        position: absolute;
+        top: 50px;
+        right: 50px;
+    }
+
+    .caja1Principal {
+        display: flex;
+        padding: 0px;
+        align-items: center;
+        flex-direction: column-reverse;
+        width: 80%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .botonSuperior{
+        display: none;
+    }
+    .caja-1024 {
+        width: 100%;
+        margin: 0px auto;
+    }
+    .superior{
+        padding: 40px;
+    }
+   
+    
+    .caja1Hijo2 img{
+        width: 90%;
+        margin: 0px auto;
+        display: block;
+    }
+    .principal {
+        max-width: 100%;
+        margin: 0px auto;
+        width: 100%;
+    }
+
+    .caja3 {
+        width: 90%;
+        padding-left: 10%;
+        padding-right: 0px;
+        flex-direction: column-reverse;
+    }
+    .caja3 dt div{
+        margin: 0px;
+        
+    }
+    .caja3 dt{
+        background-color: rgb(255, 239, 234);
+        border-bottom-left-radius: 50px;
+        border-top-left-radius: 50px;
+        padding: 11px 0px 11px 0px;
+    }
+    .caja3 dd{
+        margin: 0px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 10%;
+    }
+    .caja3Hijo1{
+        width: 90%;
+    }
+    .listaPrincipal{
+        display: none;
+    }
+    .caja5Hijo1{
+        display: none;
+    }
+    .caja5Hijo3{
+        display: none;
+    }
+    .caja5Hijo2{
+        margin-right: 0px!important;
+    }
+    .caja7{
+        flex-direction: column;
+        margin-top: 90px; 
+        align-items: center;
+        padding: 40px 20px;
+        text-align: center;
+    }
+    .caja7Hijo1{
+        width: 80%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .caja7Hijo2{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+.caja8{
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        padding: 40px 20px;
+    }
+.caja8Hijo1{
+    flex-direction: column-reverse;
+}
+    .caja8Hijo1 img{
+        padding: 15px;
+        margin-bottom: 10px;
+    }
+    .caja8Hijo4{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 5px;
+    }
+    .caja8Hijo4 p{
+        display: none;
+    }
+    .caja8Hijo2{
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 0px;
+        margin: 20px 0px;
+    }
+    .caja8Hijo2 ul {
+        list-style-type: none;
+        margin: 0px;
+    }
+    .caja8Hijo2 ul li {
+        margin: 12px;
+    }
+  }
+  
+
